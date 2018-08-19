@@ -179,12 +179,12 @@
             <phase>generate-sources</phase>
             <configuration>
               <target>
-                <exec executable="bash" failonerror="true">
-                  <arg value="${basedir}/src/scripts/saveVersion.sh"/>
-                  <arg value="${project.version}"/>
-                  <arg value="${hive.version.shortname}"/>
-                  <arg value="${basedir}/src"/>
-                </exec>
+                <!--<exec executable="bash" failonerror="true">-->
+                  <!--<arg value="${basedir}/src/scripts/saveVersion.sh"/>-->
+                  <!--<arg value="${project.version}"/>-->
+                  <!--<arg value="${hive.version.shortname}"/>-->
+                  <!--<arg value="${basedir}/src"/>-->
+                <!--</exec>-->
               </target>
             </configuration>
             <goals>
